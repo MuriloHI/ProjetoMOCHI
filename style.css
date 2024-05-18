@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.home_h1 {
+    position: absolute;
+    width: 623px;
+    height: 104px;
+    left: 147px;
+    top: 375px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.home_h1_parte2 {
+    position: absolute;
+    width: 279px;
+    height: 104px;
+    left: 494px;
+    top: 375px;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.menu_vertical {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_vertical li {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #000000;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu_vertical li:hover {
+    text-decoration: underline;
+    background-color: #CFBCD8;
+}
+
+nav.opcoes {
+    position: absolute;
+    width: 317px;
+    height: 415px;
+    left: 1016px;
+    top: 367px;
+    line-height: 40px;
+}
+
+.fila_mochi {
+    position: absolute;
+    width: 135em;
+    height: 421px;
+    left: -16px;
+    top: 720px;
+
+    background: url(mochi_inferior.png);
+}
+
+button.compre_agora {
+    position: absolute;
+    width: 326px;
+    height: 89px;
+    left: 315px;
+    top: 560px;
+    background: #CFBCD8;
+    border-radius: 64.5px;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+img.primeira {
+    position: absolute;
+    width: 977.5px;
+    height: 737.16px;
+    left: -400px;
+    top: -200px;
+
+    background: url(mochi_opaco.png);
+    background: no-repeat;
+    border-radius: 105px;
+    transform: rotate(136.57deg);
+}
