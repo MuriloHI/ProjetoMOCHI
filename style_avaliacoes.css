@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    position: relative;
+    width: 623px;
+    height: 104px;
+    top: 40px;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.img_nota {
+    position:relative;
+    top: 10px;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.miriam {
+    position: absolute;
+    top: 340px;
+    left: 220px;
+    font-size: 27px;
+}
+.foto_miriam {
+    position: absolute;
+    top: 410px;
+    left: 290px;
+
+}
+.avaliacao_miriam {
+    position: absolute;
+    width: 329px;
+    height: 236px;
+    left: 170px;
+    top: 470px;
+    font-size: 27px;
+    text-align: center;
+}
+
+.aria {
+
+}
+.foto_aria {
+
+}
+.avaliacao_aria {
+
+}
+
+.hernandes {
+
+}
+.foto_hernandes {
+
+}
+.avaliacao_hernandes {
+    
+}
+
+
+
+
+h2 {
+    position: absolute;
+    bottom: -10px;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+footer img {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 67px;
+}
+
+
+
+
