@@ -10,6 +10,11 @@ html, body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: inherit; /* Herda a cor do texto do elemento pai */
+}
+
 .home_h1 {
     position: absolute;
     width: 623px;
@@ -62,8 +67,8 @@ nav.opcoes {
     width: 317px;
     height: 415px;
     left: 1016px;
-    top: 367px;
-    line-height: 40px;
+    top: 399px;
+    line-height: 45px;
 }
 
 .fila_mochi {
@@ -72,7 +77,6 @@ nav.opcoes {
     height: 421px;
     left: -16px;
     top: 720px;
-
     background: url(mochi_inferior.png);
 }
 
@@ -95,11 +99,31 @@ img.primeira {
     position: absolute;
     width: 977.5px;
     height: 737.16px;
-    left: -400px;
-    top: -200px;
+    left: -100px;
+    top: -280px;
 
     background: url(mochi_opaco.png);
     background: no-repeat;
     border-radius: 105px;
-    transform: rotate(136.57deg);
+    transform: rotate(176.57deg);
 }
+
+div.centralizar {
+    position: absolute;
+    left: 10%; /* Coloca a esquerda da div no centro horizontal */
+    transform: translate(-50%, -50%); /* Move a div de volta em 50% da sua largura e altura */
+}
+
+img.segunda {
+    position: absolute;
+    width: 977.5px;
+    height: 737.16px;
+    right: -30px;
+    top: -300px;
+
+    background: url(mochi_opaco.png);
+    background: no-repeat;
+    border-radius: 105px;
+    transform: rotate(176.57deg);
+}
+
