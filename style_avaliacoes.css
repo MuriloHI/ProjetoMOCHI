@@ -36,7 +36,7 @@ h1 {
 .miriam {
     position: absolute;
     top: 340px;
-    left: 220px;
+    left: 180px;
     font-size: 27px;
 }
 .foto_miriam {
@@ -56,27 +56,72 @@ h1 {
 }
 
 .aria {
-
+    position: absolute;
+    top: 340px;
+    left: 810px;
+    font-size: 27px;
 }
 .foto_aria {
-
+    position: absolute;
+    top: 410px;
+    left: 906px;
 }
 .avaliacao_aria {
-
+    position: absolute;
+    width: 329px;
+    height: 236px;
+    left: 775px;
+    top: 470px;
+    font-size: 27px;
+    text-align: center;
 }
 
 .hernandes {
-
+    position: absolute;
+    top: 340px;
+    left: 1390px;
+    font-size: 27px;
 }
 .foto_hernandes {
-
+    position: absolute;
+    top: 410px;
+    left: 1506px;
 }
 .avaliacao_hernandes {
-    
+    position: absolute;
+    width: 329px;
+    height: 236px;
+    left: 1375px;
+    top: 470px;
+    font-size: 27px;
+    text-align: center;
 }
 
+img.primeira {
+    position: absolute;
+    width: 977.5px;
+    height: 737.16px;
+    left: -370px;
+    top: -230px;
 
+    background: url(mochi_opaco.png);
+    background: no-repeat;
+    border-radius: 105px;
+    transform: rotate(156.57deg);
+}
 
+img.segunda {
+    position: absolute;
+    width: 977.5px;
+    height: 737.16px;
+    right: -370px;
+    top: -230px;
+
+    background: url(mochi_opaco.png);
+    background: no-repeat;
+    border-radius: 105px;
+    transform: rotate(204.57deg);
+}
 
 h2 {
     position: absolute;
@@ -91,7 +136,3 @@ footer img {
     left: 30px;
     width: 67px;
 }
-
-
-
-
